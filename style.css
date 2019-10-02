@@ -1,0 +1,53 @@
+@keyframes grow {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+#container {
+  margin-top: 5%;
+  border: black 2px solid;
+  position:relative;
+  width:40%;
+  left:30%;
+  border-radius: 2%;
+  animation-name: grow;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.dp {
+  margin-top: 2%;
+  width: 60%;
+  position:relative;
+  left: 20%;
+  border-radius: 50%;
+}
+
+hr {
+  border-color: black;
+  width:70%;
+}
+
+#name {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Courier New", Courier, monospace
+}
+
+.link {
+  margin-left:10%;
+  width:20%;
+}
+
+body {
+  background-size: 100%;
+  background: linear-gradient(to bottom right, red, blue);
+}
